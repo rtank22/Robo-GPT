@@ -5,7 +5,7 @@ from typing import Optional
 import openai
 import tiktoken
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "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"
 MODEL = "gpt-4"
 TOKEN_BUFFER = 50
 COMBINED_TOKEN_LIMIT = 8192 - TOKEN_BUFFER

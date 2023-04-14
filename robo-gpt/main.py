@@ -9,7 +9,7 @@ import action_runner
 import speech
 import gpt
 
-
+OPENAI_API_KEY="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"
 message_history = []
 result = None
 
